@@ -62,7 +62,9 @@ body {
 }
 
 .input-container {
-    width: 45%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 50%;
     max-width: 500px;
 }
 
