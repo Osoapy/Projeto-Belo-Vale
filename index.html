@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/isis.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Belo Vale</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1 id="titulo">Projeto Belo Vale Rações</h1>
+    </header>
+
+    <main id="main" class="display-flex">
+        <div class="input-container">
+            <textarea class="input" id="input1" placeholder="Insira a tabela de valores da Consulta NF-e por Emitentes/Destinatários"></textarea>
+        </div>
+        <div class="input-container">
+            <textarea class="input" id="input2" placeholder="Insira a tabela de valores de Saídas do Sistema"></textarea>
+        </div>
+        <div>
+            <button class="botao" onclick="comparar()">Comparar</button>
+        </div>
+    </main>
+
+    <footer>
+        <h2>Resultado:</h2>
+        <pre id="output"></pre>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
